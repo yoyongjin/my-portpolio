@@ -1,0 +1,88 @@
+.git-hub-go {
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 60px 10px 60px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+
+.git-hub-go:focus {
+  outline: none;
+}
+
+.git-hub-go:hover {
+  background-color: #dbdb30;
+  color: #000;
+  transition-duration: 0.5s;
+}
+
+.barogo {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.yongjin {
+  background-image: url(../assets/김용진.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.portfolio-card1 {
+  background-image: url(../assets/포폴1.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-card2 {
+  background-image: url(../assets/포폴2.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-card3 {
+  background-image: url(../assets/포폴3.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-card4 {
+  background-image: url(../assets/포폴4.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-card5 {
+  background-image: url(../assets/포폴\ 5.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.portfolio-card6 {
+  background-image: url(../assets/포폴6.png);
+  width: 500px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

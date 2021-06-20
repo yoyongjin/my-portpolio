@@ -61,7 +61,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-hr {
+/* hr {
   margin: 1rem 0;
   color: inherit;
   background-color: currentColor;
@@ -71,7 +71,7 @@ hr {
 
 hr:not([size]) {
   height: 1px;
-}
+} */
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -570,6 +570,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  background-size: contain;
 }
 
 .img-thumbnail {
@@ -10863,9 +10864,9 @@ body {
 }
 
 hr.divider {
-  height: 0.2rem;
-  max-width: 3.25rem;
-  margin: 1.5rem auto;
+  height: 0.1rem;
+  width: 75%;
+  /* margin: 1.5rem auto; */
   background-color: #f4623a;
   opacity: 1;
 }
